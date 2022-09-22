@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+
+    <!--    ## CSS Bootstraps Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--    ## JavaScript Bootstraps Link-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Our project just needs Font Awesome Free's Solid and Brand files -->
+    <link href="static 'fontawesomefree/css/fontawesome.css'" rel="stylesheet" type="text/css">
+    <link href="static 'fontawesomefree/css/brands.css'" rel="stylesheet" type="text/css">
+    <link href="static 'fontawesomefree/css/solid.css'" rel="stylesheet" type="text/css">
+
+    <!--    ## Own CSS Styles Link-->
+    <link href="static/css/styles.css" rel="stylesheet">
+
+    <!--  TITLE  -->
+    <title>Watermark Image</title>
+</head>
+
+<body>
+
+    <!--    ## javascript for top layer.-->
+    <nav class="topbar topbar-sticky topbar-expand-md">
+        <div class="container">
+            <div class="topbar-left">
+                <a class="topbar-left-content">
+                    <svg enable-background="new 0 0 500 500" height="500px" viewBox="0 0 500 500" width="500px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><linearGradient id="SVGID_1__48306" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="500" spreadMethod="reflect"><stop offset="0" style="stop-color:#1A6DFF"></stop><stop offset="1" style="stop-color:#C822FF"></stop></linearGradient><path clip-rule="evenodd" d="M113.806,139.702v1.272c2.91,79.95,17.807,151.452,24.622,158.445  c15.812,21.084,64.777,55.792,92.399,73.235c6.814,4.362,12.625,5.181,19.173,5.356c6.537-0.176,12.349-1.269,19.166-5.356  c28.171-16.63,77.773-52.151,93.497-73.235c6.904-6.993,20.709-78.495,23.621-158.445l0.087-1.272  c0-7.361-4.722-13.719-11.268-16.083c-34.251-11.898-84.396-15.079-125.016-15.079c-40.707,0-90.854,3.181-125.014,15.079  C118.526,125.983,113.806,132.341,113.806,139.702z M31.949,87.277l0.087,2c4.631,127.925,25.163,240.399,36.253,251.575  c25.438,33.808,106.756,86.315,150.727,115.024c10.453,6.817,20.444,11.906,30.984,12.174c10.542-0.268,20.529-5.356,30.983-12.174  c43.972-28.709,125.288-81.217,150.728-115.024c11.08-11.176,31.621-123.649,36.252-251.575l0.088-2  c0-11.808-7.631-22.075-18.172-25.8C394.729,42.396,315.594,31.949,250,31.949c-65.603,0-144.738,10.446-199.881,29.528  C39.579,65.203,31.949,75.469,31.949,87.277z M76.01,116.987c0-9.445,6.086-17.532,14.445-20.529  C134.072,81.373,198.122,77.375,250,77.375c51.876,0,115.93,3.997,159.545,19.082c8.361,2.997,14.448,11.084,14.448,20.529  l-0.101,1.549c-3.718,101.302-21.259,193.244-30.07,202.15c-20.175,26.716-84.499,69.59-119.288,92.301  c-8.272,5.369-16.179,9.458-24.534,9.637c-8.358-0.179-16.264-4.268-24.532-9.637c-34.799-22.711-99.124-65.585-119.292-92.301  c-8.809-8.906-26.351-100.849-30.077-202.15L76.01,116.987z" style="fill:url(#SVGID_1__48306)"></path></svg>
+                    <span>Watermarkly</span>
+                </a>
+            </div>
+
+            <div class="topbar-right nav">
+                <a class="link-text" href="#">Watermark</a>
+                <a class="link-text" href="#">Resize</a>
+                <a class="link-text" href="#">Crop</a>
+                <a class="link-text" href="#">Compress</a>
+                <a class="link-text" href="#">Blur Faces</a>
+                <a class="link-text" href="#">Add Text</a>
+                <a class="link-text" href="#">Watermark PDF</a>
+                <a class="link-text" href="#">Pricing</a>
+                <a class="link-text" href="#">How-tos</a>
+                <a class="link-text" href="#">Support</a>
+                <a class="link-text" href="#">Blog</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="odd">
+        <div class="container">
+            <h1 class="header-1">Add Custom Watermark to Photos in 5 Mins.</h1>
+            <p>Batch watermark photos right in your browser. Add custom watermarks with your logo and text. Make multi-part watermarks. Add transparent and opaque watermarks. Resize photos before publishing online. Import photos from your computer, Google Drive or Dropbox. Instant uploads and downloads. Watermark pictures without waiting in line. Use it for free with optional paid options.</p>
+            <video id="main-video" class="shadow-5 my-3" controls="" poster="/images/index/add-custom-watermark-2.png" onplay="document.getElementById('main-video').style.height=''" style="height: 411px;">
+                <source src="/videos/watermarkly-main.mp4" type="video/mp4">
+            </video>
+            <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+            <script>
+            (function () {
+                        var availableWidth = document.querySelector("h1").offsetWidth;
+                        var height = Math.round(availableWidth * 0.5625);
+                        var mainVideo = document.getElementById("main-video");
+                        if (mainVideo.currentTime === 0)
+                        	mainVideo.style.height = height + "px";
+                    })();
+            </script>
+            <a class="btn btn-xl btn-danger watermark-button" href="#app"><i class="fa-solid fa-shield-halved"></i> Watermark Photos For Free</a>
+        </div>
+    </div>
+
+    <div class="even">
+        <div class="container">
+            <h2 class="h2-color">Web And Desktop Apps</h2>
+            <p>Watermark as many photos as you want. Even 50,000! Don’t wait for all the gigabytes of images to download over the internet. Watermark photos right on your computer.</p>
+            <p>Watermarkly is a web and desktop app. Using our watermark software <a href="https://www.visualwatermark.com/" target="_blank">Visual Watermark</a> you can protect thousands of photos in no time.</p>
+            <img src="static/images/watermark-photos-1.webp"  width="720" height="480" alt="IMG">
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Images Online</a>
+        </div>
+    </div>
+
+    <div class="odd">
+        <div class="container">
+            <h2 class="h2-color">Why You Should Add a Watermark to Photos?</h2>
+            <p>Reasons to watermark pictures can be different:</p>
+            <ul>
+                <li>Protection of confidential information from theft or forgery.</li>
+                <li>Identification of document authenticity and copyright.</li>
+                <li>Branding to increase brand awareness.</li>
+                <li>Protection of personnel files from the hands of fraudsters and those who want to use them without permission.</li>
+                <li>Designation of the status of the document. For example, "Copy" or "Invalid.” This helps to improve the workflow in the workplace.</li>
+            </ul>
+            <img src="static/images/watermark-photos-2.webp"  width="720" height="480" alt="IMG">
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Pictures For Free</a>
+        </div>
+    </div>
+
+    <div class="even">
+        <div class="container">
+            <h2 class="h2-color">Best Performance</h2>
+            <p>Instant uploads and downloads of small and large images. Select photos on your computer and start watermarking them immediately. Uploads and download are instant even if you have a slow internet connection.</p>
+            <p class="center-align">We never ask you to wait in line for your photos to be watermarked. We are starting immediately when you click the Watermark Photos button. Even on Free Plan.</p>
+            <p>Watermarkly can process several photos at once. If some of your photos are larger or smaller than others, the watermark size will be changed automatically to better fit your images.</p>
+            <p>If you need to watermark thousands of photos, we have a desktop app for Windows and Mac. It processes photos in parallel and can handle up to 50,000 images with ease.</p>
+            <img src="static/images/watermark-photos-4.webp"  width="720" height="480" alt="IMG">
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Images Online</a>
+        </div>
+    </div>
+
+    <div class="odd">
+        <div class="container">
+            <h2 class="h2-color">Full Customizability</h2>
+            <p>Combine text and logos. Make them translucent for unobtrusive protection or fill photos with them - everything is possible. You are limited only by your imagination. Use one of 962 various fonts from our vast library.</p>
+            <p>You can add:</p>
+
+            <p><i class="text-success mr-8">✓</i> Brand name or logo.</p>
+            <p><i class="text-success mr-8">✓</i> Copyright symbol.</p>
+            <p><i class="text-success mr-8">✓</i> Repeated watermarks.</p>
+            <p><i class="text-success mr-8">✓</i> Image numbers.</p>
+            <img src="static/images/watermark-photos-3.webp"  width="720" height="480" alt="IMG">
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Images Online</a>
+        </div>
+    </div>
+
+    <div class="even">
+        <div class="container">
+            <h2 class="h2-color">How to Add Watermark to Photo Using Watermarkly</h2>
+            <p>Our watermark app allows you to create and add it to any image quickly. You can work with the tool online without registration. You just need to <a href="https://watermarkly.com/#app" target="_blank">go to the application</a> and get started.</p>
+            <h3>Step-By-Step Instructions – How to Make A Watermark In Watermarkly:</h3>
+            <p>The first step – Press the button "Select images". You will be offered four options: upload from a computer, Google Drive, Google Photos, and Dropbox. When choosing one of the last three options, you should consent to access your data. Or drag and drop images from a folder on your computer into the editor window. In both cases, a high uploading speed is guaranteed.</p>
+            <p class="center-align">In the free version of our watermark app, you can upload a batch of 10 photos to process at once.</p>
+            <img src="static/images/watermark-photos-6.webp"  width="720" height="480" alt="IMG">
+            <p>The second step – Click "Add images" if you need to add more photos. Click "Clear" if you want to delete all the uploaded photos. If you uploaded pictures and realized that you don’t need one of them, move the mouse cursor over it and click on the delete bucket icon.</p>
+            <img src="static/images/watermark-photos-7.webp"  width="720" height="480" alt="IMG">
+            <p>The third step – Click "Next step" once all the files are uploaded into the application, and you are ready to add a watermark to the photos.</p>
+            <p>The fourth step – Select the type of watermark: Text or Logo. If you are using our application for the first time, you will have to create a watermark from scratch. If you have worked with the tool before, you will be prompted to select a previously made template or create a new one.</p>
+            <img src="static/images/watermark-photos-8.webp"  width="720" height="480" alt="IMG">
+            <p>The fifth step – Create a watermark.</p>
+            <h3>If you selected "Add Text":</h3>
+            <p>Enter your text into the input box. Make use of our toolkit:</p>
+            <ul>
+                <li>If necessary, add the copyright symbol © and the image number.</li>
+                <li>Pick from over 500 font options.</li>
+                <li>Select the desired color.</li>
+                <li>Choose the right size.</li>
+                <li>Drag your text to a different location within the picture.</li>
+                <li>Specify the level of transparency.</li>
+                <li>Define the angle of rotation.</li>
+                <li>Add one of the various effects as a finishing touch.</li>
+            </ul>
+            <img src="static/images/watermark-photos-9.webp"  width="720" height="480" alt="IMG">
+            <h3>If you selected "Add Logo":</h3>
+            <p>How to make a watermark with a logo:</p>
+            <ul>
+                <li>Upload your logo file from your device, Google Drive, Photos, or Dropbox. Another option is to choose an icon from the Watermarkly gallery. It includes more than 100 elements, one of which can become your new emblem.</li>
+                <li>Click "Remove Background" to remove the background from the logo (this feature is excellent if you don't have a PNG file with a transparent background).</li>
+                <li>Specify the logo size, position on the image, transparency level, rotation angle, and effect.</li>
+            </ul>
+            <p class="center-align">When adding a watermark to a photo, you can move the text/logo wherever you want and adjust the size using the blue dots at the corners of the borders.</p>
+            <img src="static/images/watermark-photos-10.webp"  width="720" height="480" alt="IMG">
+            <p>The sixth step – Click "Next step" and go to the Export settings.</p>
+            <p>The seventh step – Click "Preview watermark". This function will help you to check the position of the watermark on each image. It’s convenient if you have a large batch of images. You can adjust the position of the watermark on each picture in the preview section.</p>
+            <img src="static/images/watermark-photos-11.webp"  width="720" height="480" alt="IMG">
+            <p>The eighth step – Select file format for watermarked pictures : original, JPEG, PNG, WEBP. Resize images (if needed).</p>
+            <img src="static/images/watermark-photos-12.webp"  width="720" height="480" alt="IMG">
+            <p>Watermarkly app adjusts the sizes of watermarks by default. When saving images, you can select the "Same watermark size in pixels on all images" option. In this case, automatic scaling of your watermark will be disabled. The watermark size will be the same on each picture.</p>
+            <p class="center-align">If you use the free version of our app, the words “Protected with Watermarkly” will appear on your watermarked copies. To remove them, you need to activate the full, paid version. Read more here.</p>
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Pictures For Free</a>
+        </div>
+    </div>
+
+    <div class="odd">
+        <div class="container">
+            <h2 class="h2-color">Automatic & Manual Watermark Position</h2>
+            <p>You can upload all your images into Watermarkly and the application will watermark them in one go.</p>
+            <p><strong>Watermarkly automatically scales watermarks depending on the orientation and size of your images. Smaller photos get a smaller watermark, larger photos get a bigger one.</strong></p>
+            <p>You can disable the auto-scale option if you want to or change watermark placement for each photo in the batch. Simply click the Preview button on the Output Settings screen, click through your photos and adjust watermark position where necessary.</p>
+            <h3>Automatic Watermark Position</h3>
+            <img src="static/images/watermark-photos-16.webp"  width="720" height="480" alt="IMG">
+            <h3>Manual Watermark Position</h3>
+            <img src="static/images/watermark-photos-15.webp"  width="720" height="480" alt="IMG">
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Pictures For Free</a>
+        </div>
+    </div>
+
+    <div class="even">
+        <div class="container">
+            <h2 class="h2-color">Additional Editing Tools</h2>
+            <p>Watermarkly offers a wide range of options, when it comes to editing. With our app, you can not only <a href="#app"><strong>watermark images</strong></a>, but also:</p>
+            <p><i class="text-success mr-8">✓ </i> <a href="" target="_blank"><strong>Crop photos</strong></a> into a square, rectangle, or circle as well as set your own aspect ratios or select one of the ready-made templates from the list.</p>
+            <p><i class="text-success mr-8">✓ </i> <a href="" target="_blank"><strong>Compress JPEG, PNG and GIF</strong></a> images.</p>
+            <p><i class="text-success mr-8">✓ </i> <a href="" target="_blank"><strong>Resize photos</strong></a>.</p>
+            <p><i class="text-success mr-8">✓ </i> <a href="" target="_blank"><strong>Add text or logo</strong></a> to one photo.</p>
+            <p>You can use any of the tools separately and without adding a watermark.</p>
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Images Online</a>
+        </div>
+    </div>
+
+    <div class="odd">
+        <div class="container">
+            <h3>Privacy and Safety</h3>
+            <p>Do not install anything on your computer. Watermarkly is a web application — it works in your browser and doesn't require any software to be installed on your computer.</p>
+            <p class="center-align">Don't take risks installing software from unknown publishers on your computer.</p>
+            <p>We don't store your photos on our servers and never get access to them. Nobody in our company can access your files. Your images are always yours, no matter what.</p>
+            <p>Watermarkly establish secure connections only.</p>
+            <img src="static/images/watermark-photos-13.webp"  width="720" height="480" alt="IMG">
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Images Online</a>
+        </div>
+    </div>
+
+    <div class="even">
+        <div class="container">
+            <h3>Watermark Template Synchronization</h3>
+            <p>Since Watermarkly uploads your templates to a cloud, you can use them on every computer you own. Everyone on your team will have access to them, and your watermark will be consistent across all your images, no matter who placed it.</p>
+            <p><strong>We synchronize only watermark templates - text or logo you place on photos.</strong></p>
+            <p><strong>We don't store your images, never have access to them and never will.</strong></p>
+            <p>Your images always stay on your computer, and they are never transferred to our servers.</p>
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Images Online</a>
+        </div>
+    </div>
+
+    <div class="odd">
+        <div class="container">
+            <h2 class="h2-color">The Benefits and Drawbacks of Watermarking Images</h2>
+            <p><strong>The high demand for a watermark app suggests that users need this feature. No wonder! Watermarking has some advantages:</strong></p>
+            <p><i class="text-success mr-8">✓ </i> Watermark cannot be covered or clipped (provided it is applied correctly - read our tips on this topic below). Thus, protection against unauthorized copying is guaranteed.</p>
+            <p><i class="text-success mr-8">✓ </i> Watermark can be used as a free marketing tool. For instance, works of photographers are often shared by various accounts on social media. Thanks to watermark that they add, people know exactly who took the photos.</p>
+            <p><i class="text-success mr-8">✓ </i> The company logo as a watermark can be used on advertising materials to raise brand-awareness.</p>
+
+            <p><strong>But some people neglect the use of watermarks for the following reasons:</strong></p>
+
+            <p><i class="text-success-2 mr-8">x</i> Sometimes a watermark can spoil the aesthetic appearance of the image. This is especially true for photos from professional photographers. Some are afraid that logo or text will destroy the mood of their photo and alienate people.</p>
+            <p><i class="text-success-2 mr-8">x</i> Watermark has no legal effect. It protects an image from theft but does not directly prove copyright. If you want to sue some for stealing your works, you will have to look for more solid evidence.</p>
+            <img src="static/images/watermark-photos-14.webp"  width="720" height="480" alt="IMG">
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Pictures For Free</a>
+        </div>
+    </div>
+
+    <div class="even">
+        <div class="container">
+            <h2 class="h2-color">How to Make a Watermark: Useful Tips</h2>
+            <p>We haven’t mentioned another disadvantage. A watermark can be erased in any editor. But! There are some things that you can do to ensure that this won’t happen.</p>
+            <p>We recommend reading our tips before you start watermarking your photos to avoid making any mistakes.</p>
+            <ol>
+                <li>Make your watermark semi-transparent and place it somewhere in the center. This way it will be harder to get rid of it.</li>
+                <li>Please, don't put a small watermark in the corner of the image where it can be easily cut off.</li>
+                <li>Do not place your logo or text on a solid background. Otherwise, they will be effortlessly erased. It is better to choose an area rich in details.</li>
+                <li>Place a watermark on the objects with the highest value in the picture. In this case, no one will be able to pass off your work as their own.</li>
+                <li>Make sure that your watermark doesn’t steal all the attention. But don't make it too small or inconspicuous.</li>
+            </ol>
+            <a class="btn btn-xl btn-danger watermark-button" href="#app">Watermark Images Online</a>
+        </div>
+    </div>
+
+    <div class="odd">
+        <div class="container">
+            <h2 class="h2-color">FAQ: Watermark Pictures</h2>
+            <p>Here you can find answers to popular questions that our managers often receive from watermark app users.</p>
+            <h3>How to add a watermark to a photo?</h3>
+            <p>First, you need to find a convenient application where you can do this in a few minutes. Our Watermarkly app does not need to be downloaded to your device to add a watermark to a photo. You just need to open the app and upload your photos. We offer two options for watermarks: text or logo. We also have a symbol gallery where you can choose an icon. For example, a graphic image of a house is suitable for a real estate agency. You can find our step-by-step instructions on how to watermark photos above.</p>
+            <h3>How should I watermark photos on IOS?</h3>
+            <p>If you need to process photos and apply a unique watermark for protection quickly, you can launch the website in the mobile browser of your Apple device or download the mobile watermark app from the App Store – Watermarkly app. You can follow the instructions presented in this article, since the interface of the mobile version matches the interface of the browser-based app. The toolkit is also exactly the same.</p>
+            <h3>How to make a watermark on Android?</h3>
+            <p>The watermark app can be downloaded from the Play Market. Another option is to open our website in a mobile browser. The interface and functions do not differ. You need to upload images from the device's gallery or from your cloud storage. The next step is to add text or a logo as your watermark. After that, specify the Export settings and download the processed files to your phone. Check if you have enough free memory on your device to download all the watermarked files.</p>
+            <h3>How to make a watermark to protect my photos from being copied?</h3>
+            <p>You can easily watermark your images so no one can steal them or pass them off as their work. Open the Watermarkly app in a browser on your computer or phone, upload pictures, and add a text/logo. Check out our placement tips to make sure the watermark does precisely what it's supposed to do, so no one will be able to remove or crop it out.</p>
+            <h3>What is the best free watermark app?</h3>
+            <p>Watermarkly is a simple application where you can make a watermark. Your templates are stored in our system. When you revisit our site, we will offer you the watermark you created the last time. In the free version, you can upload up to 10 pictures at the same time. Besides, you can use our toolkit to change the size of your watermark, pick a font and color, adjust transparency, and more.</p>
+            <h3>Should I put a watermark on my Instagram photos?</h3>
+            <p>To watermark photos or not is entirely up to you. Suppose you are a professional photographer or owner of a brand that invests a lot of effort and money into creating unique photos. In that case, it is better to add a watermark to your works to protect against theft. But keep in mind that your watermark shouldn’t distract from the beauty of your photos.</p>
+            <h3>What is the best way to place a watermark with a logo on a picture?</h3>
+            <p>It depends on what result you want to achieve. If you need to protect copyrights, we recommend applying the logo in places where it cannot be removed or cut off. If you want to promote your brand with a watermark, make your logo large and prominent. Only then will it meet your expectations.</p>
+        </div>
+    </div>
+
+    <div class="even">
+        <div class="container">
+            <h2 class="h2-color">Summing Up</h2>
+            <p>Adding a watermark to a photo is a great way to protect files from copyright infringement and theft. In some cases, it can promote a company and increase brand-awareness. You can design and add a unique watermark in our straightforward and efficient Watermarkly application, which works online. Mastering our app will take little time and pose no difficulties.</p>
+            <p>Now you know how to watermark photos. Start right now! The process will take you a few minutes.</p>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="row gap-y">
+                <div class="col-lg-6">
+                    <Img src="https://image.shutterstock.com/image-vector/thank-you-poster-spectrum-brush-260nw-1153070891.jpg" width="450" height="250" alt="IMG">
+                </div>
+
+                <div class="col-lg-6">
+                    <p>Watermark Images Resize Photos Crop Photos Compress JPEG, PNG, GIF Add Text To Photo Watermark PDF Pricing Support How To Watermark Photos How To Watermark Photos on iPhone How To Add Watermark To PDF How To Crop A Picture How To Crop A Picture Into A Circle How To Compress An Image Restore Activation Key Blog Privacy Policy Terms Of Service Refunds Policy</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
+

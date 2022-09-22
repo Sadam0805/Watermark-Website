@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    line-height: 1.9;
+    font-size: 17px;
+}
+
+body, div, h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: "Segoe UI","San Francisco",sans-serif;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    z-index: 1;
+}
+
+nav div, nav div.container {
+    margin: 0px;
+    padding: 0px 10px;
+    display: flex;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+h1.header-1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+i.text-success {
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.link-text {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+nav.container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav {
+    list-style: none;
+}
+
+.topbar {
+    background: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+}
+
+.topbar-left {
+    display: flex;
+    margin-right: 15px;
+}
+
+.topbar-left-content {
+    padding-left: 20px;
+}
+
+.topbar-right {
+    display: flex;
+    margin-left: 15px;
+}
+
+.topbar-brand {
+    display: flex;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.brand-name {
+    margin-top: 0px;
+}
+
+.odd {
+    background-color: #B9FFF8;
+    padding: 25px 300px;
+}
+
+.even {
+    background-color: #EEF1FF;
+    padding: 25px 300px;
+}
+
+.container {
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.watermark-button {
+    background-color: #ff4954;
+    padding: 10px 15px;
+    margin-top: 35px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 17px;
+    max-width: 100%;
+    font-weight: 600;
+    line-height: inherit;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.button-danger:hover {
+    border-color: #ff4954;
+    color: #fff;
+}
+
+.h2-color {
+    color: #4682b4;
+}
+
+.center-align {
+    text-align: center;
+    font-style: italic;
+    color: #4682b4;
+    margin: 32px 16px;
+    padding: 8px 16px;
+}
+
+.text-success {
+    color: #46da60!important;
+}
+
+.text-success-2 {
+    color: #dd4b39;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.site-footer {
+    font-size: .75rem;
+    border-top: 1px solid #f1f2f3;
+    padding: 30px 0px;
+}
+
+.row.gap-y {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.row {
+    display: flex;
+}
+
+@media (mim-width: 992px)
+@media (mim-width: 768px)
+@media (mim-width: 576px)
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F96666;
+}
